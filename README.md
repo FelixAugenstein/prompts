@@ -27,6 +27,8 @@ Summary:
 
 > Hint: You can try to experiment with Stopping Criteria like Stop sequences, e.g. with one or more strings like `SAP` or setting the value for max new tokens.
 
+---
+
 ## Extract
 
 ```
@@ -50,6 +52,8 @@ Apple today announced financial results for its fiscal 2023 second quarter ended
 Quarterly revenue of the first quarter:
 ```
 
+---
+
 ## Generate
 
 ```
@@ -64,6 +68,8 @@ end date - August 30
 ```
 
 > Hint: Replace the placeholders with e.g. the product you would like to promote and set the min new tokens to a higher value.
+
+---
 
 ## Classify
 
