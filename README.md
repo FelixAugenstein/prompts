@@ -25,4 +25,45 @@ With the survey results also comes the opportunity to gain feedback on customer 
 Summary:
 ```
 
-> Hint: You can try to experiment with Stopping Criteria like Stop sequences, e.g. with a string like `SAP` or setting the value for max new tokens.
+> Hint: You can try to experiment with Stopping Criteria like Stop sequences, e.g. with one or more strings like `SAP` or setting the value for max new tokens.
+
+## Extract
+
+```
+Extract the quarterly revenue of the first quarter from the financial result.
+
+Financial result:
+Microsoft revenue for first quarter was $52.9 billion, increased 7% (up 10% in constant currency).
+
+Quarterly revenue of the first quarter:
+$52.9 billion
+
+Financial result:
+IBM announced a revenue of $14.3 billion, up 0.4 percent, up 4.4 percent at constant currency for second quarter.
+
+Quarterly revenue of the first quarter:
+$14.3 billion
+
+Financial result:
+Apple today announced financial results for its fiscal 2023 second quarter ended April 1, 2023. The Company posted quarterly revenue of $94.8 billion for Q1, down 3 percent year over year, and quarterly earnings per diluted share of $1.52, unchanged year over year.
+
+Quarterly revenue of the first quarter:
+```
+
+## Generate
+
+```
+Generate a 5-10 sentence marketing email for `YOUR_PRODUCT` using all of the following characteristics:
+
+Company: `YOUR_COMPANY`
+Offer includes a 10% discount
+The product offers scalability, a modular structure, customization, several integration options
+tone - informative
+response requested - click the link `YOUR_LINK` or call via phone under +1 23452345
+end date - August 30
+```
+
+> Hint: Replace the placeholders with e.g. the product you would like to promote and set the min new tokens to a higher value.
+
+## Classify
+
