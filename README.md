@@ -73,3 +73,62 @@ end date - August 30
 
 ## Classify
 
+```
+The following paragraph is an email to the customer support of an insurance company. The email is about one of these options: report claim, question about contract, cancel contract, insurance rate, purchase. Read the following paragraph and determine which option the email is about.
+
+Dear Insurance Provider ABC,
+
+I am writing to express my dissatisfaction with my current insurance policy and to request the cancellation of the contract. Unfortunately, my experience with your company has been less than satisfactory due to various reasons, such as poor customer service, lack of coverage, excessive premium insurance rates, long waiting times until report claims get a response, etc.. Despite my attempts to resolve these concerns and many questions, I have not received a satisfactory resolution. Therefore, I believe it is in my best interest to terminate the insurance contract. I kindly request that you initiate the cancellation process and provide me with the necessary instructions and documentation to ensure a smooth and timely termination. I appreciate your prompt attention to this matter. I will be looking to purchase another insurance at another company.
+
+Sincerely,
+Max Mustermann
+```
+
+---
+
+## Q&A
+
+```
+User: Agent, here are your instructions:
+1. You will be given a document that should be used to reply to user questions.
+2. You should generate the next response using information available in the document.
+3. If you can't find an answer, say "I don't know".
+4. Your responses should not be long and just have about 1-2 sentences.
+5. You should not repeat your answers.
+6. Do not use any other knowledge.
+
+User: Here's the document: {
+The new Watson Assistant experience, focused on using actions to build customer conversations, is designed to make it simple enough for anyone to build a virtual assistant. Building, testing, publishing, and analyzing your assistant can all now be done in one simple and intuitive interface.
+
+New navigation provides a workflow for building, previewing, publishing, and analyzing your assistant.
+Each assistant has a home page with a task list to help you get started.
+Build conversations with actions, which represent the tasks you want your assistant to help your customers with. Each action contains a series of steps that represent individual exchanges with a customer.
+A new way to publish lets you review and debug your work in a draft environment before going live to your customers.
+Use a new suite of analytics to improve your assistant. Review which actions are being completed to see what your customers want help with, determine if your assistant understands and addresses customer needs, and decide how can you make your assistant better.
+For more information about the new experience, see FAQs about the new IBM Watson Assistant experience.
+}
+
+User: I need different UIs to build and test my assistant, correct?
+Agent: 
+```
+
+---
+
+## Code explanation
+
+```
+# JavaScript
+function fizzBuzz(input) {
+    if (typeof input !== 'number') return 'Not a number'
+    if (input % 3 !== 0 && input % 5 !== 0) return input
+    if (input % 3 === 0 && input % 5 === 0) return 'FizzBuzz'
+    if (input % 3 === 0) return 'Fizz'
+    if (input % 5 === 0) return 'Buzz'
+}
+
+let result = fizzBuzz('kuku')
+console.log(result)
+
+# Explanation of the defined function: 
+```
+> Hint: Use the min and max new tokens and set the max value e.g. to 100.
