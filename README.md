@@ -5,7 +5,7 @@ In this repository you will find some example prompts to summarize, extract, gen
 ## Summarize
 
 ```
-The following document is a transcript from a financial earnings call.  Read the document and then write a short 1 paragraph summary.
+The following document is a news article about an award.  Read the document and then write a short 1 paragraph summary.
 
 Document:
 SAP SuccessFactors Awarded the IDC SaaS Customer Satisfaction Award for Talent Management
@@ -32,7 +32,7 @@ Summary:
 ## Extract
 
 ```
-Extract the quarterly revenue of the first quarter from the financial result.
+Extract the quarterly revenue of the first quarter in 2023 from the financial result.
 
 Financial result:
 Microsoft revenue for first quarter was $52.9 billion, increased 7% (up 10% in constant currency).
@@ -47,7 +47,8 @@ Quarterly revenue of the first quarter:
 $14.3 billion
 
 Financial result:
-Apple today announced financial results for its fiscal 2023 second quarter ended April 1, 2023. The Company posted quarterly revenue of $94.8 billion for Q1, down 3 percent year over year, and quarterly earnings per diluted share of $1.52, unchanged year over year.
+Amazon.com, Inc. (NASDAQ: AMZN) today announced financial results for its first quarter ended March 31, 2023.
+Compared with $116.4 billion in first quarter 2022 net sales increased 9% to $127.4 billion in the first quarter. Excluding the $2.4 billion unfavorable impact from year-over-year changes in foreign exchange rates throughout the quarter, net sales increased 11% compared with first quarter 2022.
 
 Quarterly revenue of the first quarter:
 ```
